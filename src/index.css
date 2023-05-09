@@ -1,0 +1,17 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-title {
+  @apply text-4xl text-center text-black font-bold;
+}
+.edit-btn {
+  background: linear-gradient(
+    90.74deg,
+    rgba(119, 67, 32, 0.15) 0.16%,
+    rgba(232, 197, 128, 0.15) 100%
+  );
+  border-radius: 8px;
+}
